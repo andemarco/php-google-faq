@@ -14,7 +14,7 @@ header {
   top: 0;
   width: 100%;
   border-bottom: 1px solid lightgrey;
-  color: grey;
+  color: #3D4043;
   background-color: white;
 }
 .nav_bar {
@@ -30,6 +30,7 @@ header {
   display: inline-block;
   font-size: 1.4em;
   vertical-align: middle;
+  font-weight: lighter;
 }
 /* MENU */
 .menu ul {
@@ -48,29 +49,32 @@ header {
 }
 /* main */
 main {
-  width: 65%;
+  width: 70%;
   margin: 0 auto;
   margin-top: 120px;
+  line-height: 28px;
 }
 .main_section li{
   list-style: none;
 }
 .main_section li h2{
   margin-top: 40px;
+  color: #3D4043;
 }
 .main_section li p{
   margin-top: 20px;
   margin-bottom: 20px;
   font-weight: normal;
   font-size: 0.9em;
+  color: #3D4043
 }
 
 /* FOOTER  */
 footer {
-  background-color: lightgrey;
+  background-color: #EFEFEF;
 }
 footer ul {
-  width: 65%;
+  width: 70%;
   margin: 0 auto;
   display: flex;
   justify-content: center;
