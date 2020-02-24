@@ -2,6 +2,11 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+.active {
+  border-bottom: 2px #4272D8 solid;
+  color: #4272D8;
 }
 /* NAV BAR */
 header {
@@ -13,12 +18,13 @@ header {
   background-color: white;
 }
 .nav_bar {
-  padding: 20px 10px 20px 10px;
+  padding: 15px 20px 15px 20px;
 }
 .nav_bar img {
   height: 30px;
   vertical-align: middle;
   display: inline-block;
+  padding-right: 10px;
 }
 .nav_bar h6 {
   display: inline-block;
@@ -33,7 +39,9 @@ header {
 .menu li {
   list-style: none;
   display: inline-block;
-  padding: 10px;
+  padding: 10px 20px 10px 20px;
+  font-size: 0.8em;
+  font-weight: bold;
 }
 .menu li:last-child {
   margin-left: auto;
@@ -52,6 +60,9 @@ main {
 }
 .main_section li p{
   margin-top: 20px;
+  margin-bottom: 20px;
+  font-weight: normal;
+  font-size: 0.9em;
 }
 
 /* FOOTER  */
@@ -71,6 +82,11 @@ footer ul li {
   line-height: 40px;
   color: grey;
 }
+footer ul li span {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
 footer ul li:last-child {
   margin-left: auto;
 }

@@ -38,6 +38,7 @@ $db = [
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
     <title></title>
   </head>
   <body>
@@ -52,7 +53,7 @@ $db = [
           <li>Norme sulla privacy</li>
           <li>Termini di Servizio</li>
           <li>Tecnologie</li>
-          <li>Domande Frequenti</li>
+          <li class="active">Domande Frequenti</li>
           <li>Account Google</li>
         </ul>
       </div>
@@ -71,11 +72,11 @@ $db = [
     </main>
     <footer>
       <ul>
-        <li>Google &sdot; </li>
-        <li> Tutto su Google &sdot; </li>
-        <li> Privacy &sdot; </li>
+        <li>Google<span>&sdot;</span></li>
+        <li> Tutto su Google<span>&sdot;</span></li>
+        <li> Privacy<span>&sdot;</span></li>
         <li> Termini</li>
-        <li><select class="" name="">
+        <li class="select"><select class="" name="">
             <option value="">Italiano</option>
             <option value="">Inglese</option>
             <option value="">Francese</option>
